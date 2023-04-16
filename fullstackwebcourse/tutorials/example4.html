@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo"><span id="letter">A</span>DVENTURE</h1>
+        <ul class="navlinks">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#" class="ctn">Contact</a></li>
+        </ul>
+        <img src="images/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2> <span id="name">Explore</span>The Colorful<span id="name" >World</span> </h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/adv4.jpg" alt="">
+                <h4>Beach Houses</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptates voluptatibus placeat doloremque maxime laudantium vel adipisci ullam laborum, libero in assumenda neque dicta ipsam! Illo dolorem est natus tenetur?</p>
+                <a href="#" class="ctn">Learn More</a>
+                <div class="col">
+                    <img src="images/adv3.jpg" alt="">
+                    <h4>Beautiful Nature</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptates voluptatibus placeat doloremque maxime laudantium vel adipisci ullam laborum, libero in assumenda neque dicta ipsam! Illo dolorem est natus tenetur?</p>
+                    <a href="#" class="ctn">Learn More</a>
+
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+        <h1>Explore The World</h1>
+        <div class="line"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi qui aliquid cupiditate deserunt in nobis quis, rerum quaerat numquam alias dolores explicabo aliquam ullam, quia animi at adipisci sequi id.</p>
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col">
+                <h1>Upcoming Tours And Destination</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero est soluta, repellat quaerat molestiae eaque deleniti, accusamus reprehenderit quisquam odio debitis aut, iusto magnam consequatur! Libero eveniet magnam esse. Reprehenderit.</p>
+                <a href="#" class="ctn">Learn More</a>
+                <div class="col image-col">
+                    <div class="img-gallery">
+                        <img src="/bootstrap/pics/tourpic4.jpg" alt="">
+                        <img src="/bootstrap/pics/tourpic3.jpg" alt="">
+                        
+                    </div>
+                    <div class="col image-col">
+                        <div class="img-gallery">
+                            <img src="/bootstrap/pics/tourpic2.jpg" alt="">
+                            <img src="/bootstrap/pics/tourpic5.jpg" alt="">
+                            
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>Seventh Avenue,123-B,LosAngeles,California,USA.
+            <br>
+            Phone:800-123-456
+            <br>
+            Email:contactus@gmail.com
+        </p><br>
+        <p>CopyRight @ 2023 OutDoor Adventure</p>
+    </section>
+    <script>
+        const menuBtn=document.queryselector('.menu-btn');
+        const navLinks=document.queryselector('.navlinks');
+        menuBtn.addEventListener("click",()=>{
+            navLinks.classList.toggle('mobile-menu');
+        });
+    </script>
+    
+</body>
+</html>

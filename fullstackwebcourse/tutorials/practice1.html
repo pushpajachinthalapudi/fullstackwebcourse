@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background image</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Flowers</h1>
+    </div>
+    <p id="paragraph">Flowers are the happiness that found in nature.Flowers are blooming blossoms in the nature.ipsum dolor sit amet consectetur, adipisicing elit. Suscipit eius molestiae, eveniet fuga perspiciatis aliquid a. Incidunt itaque adipisci quibusdam sint ex ipsum ab inventore dicta illo, recusandae, perspiciatis ipsam.So, Take some time to smell the flowers.</p>
+    <div class="container2">
+    <h2>Order now!</h2>
+    </div>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: black;
+        }
+        .container{
+           /* border: 1px solid white;*/
+            height: 100vh;
+            background-image: url("/bootstrap/pics/flower2.jpg");
+            background-repeat: no-repeat;
+            background-position: left;
+            background-size: cover;
+           /* background:url("/bootstrap/pics/flower1.jpg") no-repeat cover;*/
+        }
+        .container h1{
+            color:maroon;
+            font-size: 50px;
+            font-family: cursive;
+           /* position: relative;
+            top: 20px;
+            left:20px;*/
+            display: flex;
+            justify-content: flex-end;
+            animation: move 2s linear infinite;
+        }
+        .container h1:hover{
+            color: burlywood;
+        }
+        
+        @keyframes move{
+            from{ padding-left: 40px;}
+            to{padding-right: 40px;}
+        }
+        #paragraph{
+            background-color: hotpink;
+            font-size: 18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #paragraph:hover{
+            color: darkred;
+            background-color:grey;
+        }
+        .container2{
+            width: 200px;
+            height: 100px;
+            background-color:gold;
+            transition: width 2s;
+            position: relative;
+            left: 200px;
+            top:20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container2:hover{
+            width: 400px;
+            color: crimson;
+            background-color: cyan;
+        }
+       
+            
+    </style>
+    
+</body>
+</html>

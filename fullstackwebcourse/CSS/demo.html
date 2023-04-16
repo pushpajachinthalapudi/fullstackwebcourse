@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="icon" href="/HTML/favicon (2).ico">
+    <style>
+        body{
+            background-color: black;
+            color: azure;
+        }
+        #a{
+            color:aqua;
+            display:inline;
+            text-align: center;
+            border-bottom: 1px solid aqua;
+            text-decoration: dotted aqua;
+        }
+        #b{
+            list-style-type: square;
+        
+            color: brown;
+            font-family: cursive;
+
+
+        }
+        p{
+            color: burlywood;
+        }
+        .heading{
+            color: crimson;
+        }
+        .proj-links li{
+            margin-bottom: 20px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+        input[type=submit]{
+            background-color: crimson;
+            color: antiquewhite;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 100px;
+            font-family: cursive;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h2 id="a">My Portfolio</h2>
+</div>
+    <nav>
+    <ul id ="b">
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact me</a></li>
+       
+    </ul>
+</nav>
+<section>
+    <div class="heading">
+    <h2>About me:</h2>
+    <p> Hi, I am Pushpaja. I am a graduate in computer science engineering,and currently working as a full stack web developer in ABC company. My technology includes skills of React.js, Node.js,Express.js and MongoDB. I have a strong understanding of these skills and can efficiently work on this platform.</p>
+    <hr>
+    <h2>Projects:</h2>
+    <ul class="proj-links">
+        <li><a href="/HTML/survey.html" target="_blank">Project 1</a></li>
+
+        <img src="images/pic1.jpg" alt="" width="50%"><br><br>
+        <li><a href="/CSS/demo2.html" target="_blank">Project 2</a></li>
+        <img src="images/pic2.jpg" alt="" width="50%"><br><br>
+        <li><a href="/CSS/form.html" target="_blank">Project 3</a></li>
+        <img src="images/pic3.jpg" alt="" width="50%">
+    </ul>
+    <hr>
+    <h2>Contact me:</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"> <br> <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"> <br> <br>
+        <label for="message">Message:</label>
+        <textarea name="text" id="message" ></textarea> <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</section>
+<footer>
+    <p>CpoyRight &copy; 2023</p>
+</footer>
+</body>
+</html>

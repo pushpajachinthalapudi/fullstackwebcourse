@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+<style>
+    body{
+        background-color: aquamarine;
+        color:crimson;
+    }
+    h1{
+        color:black;
+        text-align:center;
+    }
+    h4{
+        color: darkblue;
+    }
+    input[type=submit]{
+        background-color:black;
+        color: antiquewhite;
+        padding:10px 20px;
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .container{
+        
+       border: 1px solid black;
+       padding: 30px;
+       margin: 20px 50px;
+       background-color:cadetblue;
+        
+        
+    }
+</style></head>
+<body>
+    <h1>Survey</h1>
+    <h4>Please enter the following details as a part of this survey:</h4>
+    <form>
+        <div class="container">
+        <label for="name">Name</label>
+        <br>
+        <input type="text" id="name">
+        <br><hr>
+        <label for="ph no">Phone number</label>
+        <br>
+        <input type="number" id="ph no">
+        <br><hr>
+        <label for="email">Email -id</label>
+        <br>
+        <input type="text" id="email">
+        <br><hr>
+        <p>Please select your age:</p>
+        <input type="radio" id="age1" name="age" value="30">
+        <label for="age1">0-30</label> <br>
+        <input type="radio" id="age2" name="age" value="60">
+        <label for="age2">30-60</label>
+        <br>
+        <input type="radio" id="age3" name="age" value="100">
+        <label for="age3">60-100</label>
+        
+        
+        <br><hr>
+        <p>Please select your skills:</p>
+        <input type="checkbox" id="skill1" >
+        <label for="skill1">HTML</label> <br>
+        <input type="checkbox" id="skill2" >
+        <label for="skill2">CSS</label>
+        <br>
+        <input type="checkbox" id="skill3">
+        <label for="skill3">JAVASCRIPT</label>
+        
+        <br><hr>
+        <label for="yop">Year of passing</label>
+        <br>
+        <input type="da" id="yop">
+        <br><hr>
+        <label for="cgpa">CGPA</label>
+        <br>
+        <input type="number" id="cgpa">
+        <br><hr>
+        <input type="submit">
+    </div>
+    </form>
+    
+    
+</body>
+</html>
