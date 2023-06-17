@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bouquet of Flowers</title>
+  <link rel="stylesheet" href="boquet.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h2>Bouquet Of Flowers</h2>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#aboutus">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="order-now"><a href="#">Order Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              
+            </div>
+            <div class="col-md-6">
+              <h1 class="text-right">"Take some time to <br> smell the flowers"</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    <section id="about-us">
+        <div class="container">
+          <h2 id="#aboutus">About Us</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/bouquet.jpg" alt="Image description">
+            </div>
+            <div class="col-md-6">
+              <p>We are a premium florist providing a wide range of exquisite bouquets for all occasions. With over 20 years of experience, we pride ourselves on delivering top-quality floral arrangements that leave a lasting impression.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    <!--<section class="about-us">
+      <h2>About Us</h2>
+      <p>We are a premium florist providing a wide range of exquisite bouquets for all occasions. With over 20 years of experience, we pride ourselves on delivering top-quality floral arrangements that leave a lasting impression.</p>
+    </section>-->
+
+    <section class="cards">
+      <div class="card">
+        <img src="images/bouquet1.jpg" alt="Card 1">
+        <h3>Wedding Bouquets</h3>
+        <p>Our wedding bouquets are carefully crafted to reflect the unique style and personality of the bride and groom. From classic roses to exotic orchids, we have the perfect bouquet for your special day.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/bouquet2.jpg" alt="Card 2">
+        <h3>Birthday Bouquets</h3>
+        <p>Celebrate your loved one's birthday with a stunning bouquet of fresh flowers. Choose from our wide selection of arrangements, ranging from bright and colorful to elegant and understated.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/bouquet4.jpg" alt="Card 3">
+        <h3>Sympathy Bouquets</h3>
+        <p>Express your condolences with a beautiful bouquet of sympathy flowers. Our arrangements are designed to provide comfort and solace during difficult times.</p>
+      </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+          <h2 id="#contact">Contact Us</h2>
+          <form action="submit-form.php" method="POST">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+      
+  </main>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>We are a florist company that specializes in creating beautiful bouquets and floral arrangements for any occasion.</p>
+        </div>
+        <div class="col-md-6">
+          <ul>
+            <li><i class="fa fa-map-marker"></i> 123 Main Street, Anytown, USA</li>
+            <li><i class="fa fa-phone"></i> (555) 555-5555</li>
+            <li><i class="fa fa-envelope"></i> info@bouquetofflowers.com</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="text-center">Copyright © 2023 Bouquet of Flowers.
+    </div>
+  </footer>
+  
+
+</body>
+</html>

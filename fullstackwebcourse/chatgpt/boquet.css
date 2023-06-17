@@ -1,0 +1,249 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e0aaff;
+  }
+  /* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:#ffba08;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo h2{
+    color: #5a189a;
+  }
+    
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin: 0 20px;
+  }
+  
+  .order-now {
+    background-color: #ff6b6b;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .order-now a {
+    color: #fff;
+  }
+  
+  /* Main section styles */
+  main {
+    padding: 50px;
+  }
+  #home {
+    background-image: url(images/bg-7.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    
+}
+  #home img {
+    width: 50%;
+    height: auto;
+  }
+  #home h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  #about-us {
+    background-color: #e0aaff;
+    padding: 20px 0;
+  }
+  
+  #about-us h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+  
+  #about-us img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  #about-us p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  
+  
+  /* Cards section styles */
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .card img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 18px;
+  }
+  
+  #contact {
+    padding: 50px 0;
+  }
+  
+  #contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+  
+  #contact form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #contact label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  #contact input,
+  #contact textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #contact textarea {
+    height: 150px;
+  }
+  
+  #contact button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #contact button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  footer {
+    background-color: #ffba08;
+    color: #5a189a;
+    padding: 40px 0;
+    font-size: 16px;
+  }
+  
+  footer h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  footer p {
+    margin-bottom: 20px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer li {
+    margin-bottom: 10px;
+  }
+  
+  footer i {
+    margin-right: 10px;
+  }
+  
+  footer hr {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  footer p.text-center {
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .cards {
+      flex-direction: column;
+    }
+  
+    .card {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .nav-links {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+    }
+  
+    .order-now {
+      margin-top: 20px;
+    }
+  }
+  
+  
+  
